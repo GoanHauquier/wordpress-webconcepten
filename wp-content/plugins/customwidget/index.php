@@ -30,7 +30,7 @@ class My_Custom_Widget extends WP_Widget {
 
         echo $args['before_widget'];
 
-        echo $args['before_title'] . apply_filters( 'widget_title', 'State of Employment' ) . $args['after_title'];
+        echo $args['before_title'] . apply_filters( 'widget_title', '' ) . $args['after_title'];
 
         echo $state;
 
